@@ -32,3 +32,5 @@
 /Users/macuser/Desktop/SupermarketAPI/src/Supermarket.API/obj/Debug/netcoreapp3.0/Supermarket.API.csproj.CopyComplete
 /Users/macuser/Desktop/SupermarketAPI/src/Supermarket.API/obj/Debug/netcoreapp3.0/Supermarket.API.dll
 /Users/macuser/Desktop/SupermarketAPI/src/Supermarket.API/obj/Debug/netcoreapp3.0/Supermarket.API.pdb
+/Users/macuser/Desktop/SupermarketAPI/src/Supermarket.API/bin/Debug/netcoreapp3.0/AutoMapper.dll
+/Users/macuser/Desktop/SupermarketAPI/src/Supermarket.API/bin/Debug/netcoreapp3.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

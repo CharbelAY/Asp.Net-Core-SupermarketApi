@@ -17,6 +17,8 @@ using Supermarket.API.Domain.Services;
 using Supermarket.API.Persistence.Contexts;
 using Supermarket.API.Services;
 using Supermarket.API.Domain.Models;
+using AutoMapper;
+
 namespace Supermarket.API
 {
     public class Startup
@@ -37,6 +39,10 @@ namespace Supermarket.API
             });
             services.AddScoped<ICategoryRepository,CategoryRepository>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddAutoMapper(typeof(Startup));
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+
 
         }
 
